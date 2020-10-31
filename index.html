@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Robbis Taschenrechner</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Robbis Rechner</h1>
+        
+        <table>
+            <tr>
+                <td id="display" colspan = 4>
+                    <p id="memory"></p>
+                    <p id="result">0</p>
+                </td>
+            </tr>
+            <tr class="operators">
+                <td data-key="67" class="key">C</td>
+                <td data-key="998" class="key">(</td>
+                <td data-key="999" class="key">)</td>
+                <td data-key="111" class="key">/</td>
+            </tr>
+            <tr>
+                <td data-key="55" class="key">7</td>
+                <td data-key="56" class="key">8</td>
+                <td data-key="57" class="key">9</td>
+                <td data-key="88" class="key operators">x</td>
+            </tr>
+            <tr>
+                <td data-key="52" class="key">4</td>
+                <td data-key="53" class="key">5</td>
+                <td data-key="54" class="key">6</td>
+                <td data-key="109" class="key operators">-</td>
+            </tr>
+            <tr>
+                <td data-key="49" class="key">1</td>
+                <td data-key="50" class="key">2</td>
+                <td data-key="51" class="key">3</td>
+                <td data-key="107" class="key operators">+</td>
+            </tr>
+            <tr>
+                <td data-key="48" class="key" colspan=2>0</td>
+                <td data-key="188" class="key" id="decimal">,</td>
+                <td data-key="13" class="key operators">=</td>
+            </tr>
+        </table>
+    
+        <script src="calculator.js"></script>
+    </body>
+</html>
